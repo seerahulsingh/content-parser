@@ -13,6 +13,8 @@ Parsing of URL has been done using `gem nokogiri`. And the bulk create to databa
 
 Nokogiri parser code can be found in `/lib/parser.rb`, there you can edit `@parsable_tags` variable in case you want to add more HTML tags to be parsed for its text contents.
 
+Api is versioned and its v1 right now and the code can be found in `/app/controllers/api`
+
 ## API Docs
 Example curl command to parse the content of given URL
 
